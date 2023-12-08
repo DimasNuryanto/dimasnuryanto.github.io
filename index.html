@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)file:///D:/html/html/img/saya.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="saya.css">
+    <link rel="icon" href="3143683.webp" type="image/x-icon">
+    <title>rog.asus</title>
+    <script>
+        function kirimPesanWhatsApp() {
+            var pesan = "Halo, Dhimas Senang Bertemu dengan Anda.";
+            var nomorAdmin = "+62 823-1490-6463";
+            var linkWhatsApp = "https://api.whatsapp.com/send?phone=" + nomorAdmin + "&text=" + encodeURIComponent(pesan);
+            window.open(linkWhatsApp);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Penjualan ROG</h1>
+    </header>
+    
+        <nav>
+            <ul>
+                <li><a href="#about">TENTANG ROG</a></li>
+                <li><a href="#services">STORE</a></li>
+                <li><a href="#hotproduct">HOT PRODUCT</a></li>
+                <li><a href="#contact">KONTAK</a></li>
+            </ul>
+        </nav>
+    <main>
+        <section id="about">
+            <h2>Tentang ROG</h2>
+            <p>Republic of Gamers adalah sebuah brand perangkat keras notebook khusus gaming dari ASUS, perusahaan berbasis di Taiwan yang memproduksi komponen komputer seperti papan induk, kartu grafis, dan notebook. ASUS belakangan ini mulai memproduksi PDA, Telepon genggam, LCD, dan Perangkat keras lainnya. Pesaing utamanya termasuk MSI, dan Gigabyte. [1] ASUS pada 2005 menjual papan induk lebih banyak dari perusahaan lainnya, termasuk 30 juta pada 2004. Angka ini termasuk kontrak merek lain. ASUS juga memproduksi komponen untuk perusahaan lain, termasuk PS2 Sony dan Apple Ipod, iBook, dll</p>
+        </section>
+        <section id="services">
+            <h2>STORE</h2>
+            <ul>
+                    <img src="download.jpg" alt="Deskripsi Gambar ">
+                    <li><p>silahkan dipilih</p></li>
+                    <button id="beliSekarangBtn1">Beli Sekarang</button>
+            </ul>
+        </section>
+        
+        <script>
+            document.getElementById("beliSekarangBtn1").addEventListener("click", function() {                
+                window.location.href = "https://www.asus.com/id/store/";
+            });
+        </script>
+        
+        <section id="hotproduct">
+            <h2>ROG Strix Scar 18(2023)</h2>
+            <img src="w300.png" alt="Deskripsi Gambar 1">
+            <img src="fwebp.webp" alt="Deskripsi Gambar 1">
+            <p>GeForce RTX™ XXXX Laptop GPU  
+                Windows 11 Pro  
+                12th Gen Intel® Core™ i9-XXXX  
+                18 inch WQXGA (2560 x 1600) 16:10, Refresh Rate:240Hz  
+                2TB + 2TB M.2 NVMe™ PCIe® 4.0 Performance SSD (RAID 0)  
+                32GB DDR5 on board+32GB DDR5 SO-DIMM</p>
+            <h2>ROG Flow Z13-ACRNM RMT02</h2>
+            <img src="w300 (1).png" alt="Deskripsi Gambar 2">
+            <p>GeForce® RTX 4070 Laptop GPU 
+                Windows 11 Pro 
+                13th gen Intel®Core™ i9-13900H 
+                13 inch, DXC Touch Panel, WQXGA (2560x1600), 16:10, Refresh Rate: 165Hz
+                1TB M.2 NVMe™ PCIe® 4.0 SSD 
+                16GB DDR5 on board+16GB DDR5 SO-DIMM</p>
+        </section>
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika anda tertarik dengan layanan kami, jangan ragu untuk menghubungi kami melalui formulir di bawah ini atau melalui whatsapp kami</p>
+            <form>
+                <button onclick="kirimPesanWhatsApp()">Chat dengan Kami</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>UAS 2023 WEB/</p>
+    </footer>
+
+</body></html>
